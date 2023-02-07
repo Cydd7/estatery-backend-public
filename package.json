@@ -1,0 +1,34 @@
+{
+  "name": "estatery-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cydd7/estatery-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cydd7/estatery-backend/issues"
+  },
+  "homepage": "https://github.com/Cydd7/estatery-backend#readme",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "axios": "^1.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "mongoose": "^5.13.15",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.1.0",
+    "stripe": "^11.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+.env
+.DS_Store
+route.rest
+node_modules
+
+
+functions
+# Local Netlify folder
+.netlify
